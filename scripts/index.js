@@ -15,6 +15,7 @@ form.addEventListener('submit', e => {
 
     let person = {}
 
+    person.id = Object.keys(availability).length + 1
     person.firstName = firstName.value
     person.lastName = lastName.value
     person.availability = {
